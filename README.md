@@ -1,8 +1,25 @@
-# React + Vite
+Projeto: Página de Login com React
+Descrição do Projeto
+Este é o meu primeiro projeto utilizando React, onde desenvolvi uma aplicação de página de login. O objetivo foi aplicar os conhecimentos adquiridos em cursos, vídeos e tutoriais, além de explorar ferramentas como LocalStorage para simular um banco de dados e a biblioteca React Toastify para exibição de notificações.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto representa um marco no meu aprendizado em desenvolvimento front-end, permitindo a prática de conceitos fundamentais como componentes, estados, manipulação de eventos e integração de bibliotecas.
 
-Currently, two official plugins are available:
+Funcionalidades
+Cadastro de usuários: Permite salvar o e-mail e a senha do usuário no LocalStorage, simulando um banco de dados simples.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Login: Verifica se o e-mail e a senha fornecidos correspondem aos dados cadastrados no LocalStorage.
+
+Recuperação de senha: Simula o envio de um e-mail para recuperação de senha.
+
+Notificações: Uso do React Toastify para exibir mensagens de sucesso ou erro de forma estilizada.
+
+Exibição da senha: Ícones que permitem alternar entre exibir ou ocultar a senha nos campos de entrada.
+
+Tecnologias Utilizadas
+React: Framework principal para construção da interface.
+
+React Toastify: Biblioteca para exibição de notificações.
+
+CSS: Estilização da interface para uma experiência agradável e intuitiva.
+
+LocalStorage: Armazenamento local para simular um banco de dados simples.
