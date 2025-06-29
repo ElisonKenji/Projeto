@@ -1,0 +1,94 @@
+.Toastify__toast-container {
+  
+  background-color: transparent !important;
+}
+
+.Toastify__toast {
+ 
+  border-radius: 10px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  color: #fff !important; 
+
+  
+  position: relative !important; 
+  display: flex !important;      
+  align-items: center !important; 
+
+  
+  padding: 16px 20px !important; 
+
+  overflow: hidden !important; 
+  height: auto !important;
+  min-height: 50px !important; 
+}
+
+.Toastify__toast-body {
+  flex-grow: 1 !important;
+  display: flex !important; 
+  align-items: center !important; 
+  word-break: break-word !important;
+
+ 
+  padding-right: 35px !important; 
+
+
+  background: none !important; 
+  color: inherit !important; 
+}
+
+
+.Toastify__toast-icon {
+  margin-right: 10px !important; 
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.Toastify__toast-icon svg {
+  color: #fff !important; 
+  fill: #fff !important;  
+  font-size: 24px !important; 
+}
+
+.Toastify__close-button {
+  position: absolute !important; 
+  top: -10px !important;          
+  right: -150px !important;        
+  transform: none !important;    
+
+  color: #fff !important;        
+  opacity: 0.8 !important;       
+  font-size: 20px !important;    
+  cursor: pointer !important;
+  background: none !important;   
+  border: none !important;       
+  padding: 0 !important;         
+  z-index: 10 !important;        
+
+  left: auto !important;
+  margin-left: auto !important;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1 !important;
+  color: #eee !important;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1 !important;
+  color: #eee !important;
+}
+
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #4CAF50, #66BB6A) !important;
+  color: #fff !important;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #F44336, #EF5350) !important;
+  color: #fff !important;
+}
